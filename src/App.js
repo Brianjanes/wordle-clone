@@ -11,7 +11,7 @@ const App = () => {
         setSolution(data[0]);
       });
   }, [setSolution]);
-  console.log(solution);
+
   return (
     <div className="App">
       <h1>Wordle</h1>
